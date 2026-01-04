@@ -8,4 +8,9 @@ const routes = [
     component: Dashboard
   }
 ]
-// ... rest of the router setup
+const router = createRouter({
+  history: createWebHistory(),
+  routes
+})
+
+export default router
